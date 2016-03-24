@@ -1,4 +1,6 @@
 
+//Helper class to get both of the starting coordinates of the robot
+//done in order to test it
 public class Pair {
 	
 	private int x,y;
