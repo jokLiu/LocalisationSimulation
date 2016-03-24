@@ -33,7 +33,7 @@ public class BeginLocalise {
 
 		Distances dist = new Distances(map);
 		LocalistaionMain ml = new LocalistaionMain(wrapper.getRobot(), map, gridStart, ranger, dist);
-		ml.visualise(sim);
+//		ml.visualise(sim);
 		ml.run();
 		return (new Pair(ml.startingX, ml.startingY));
 
